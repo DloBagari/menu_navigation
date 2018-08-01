@@ -1,0 +1,16 @@
+
+{
+  "title": "MPManager", "type": "menu", "subtitle": "Select an option...",
+  "options": [
+    { "title": "Provision Storage", "type": "menu", "subtitle": "Select a Provision option...",
+      "options":[
+        { "title": "Command: update", "type": "command", "command": "sudo apt update" }
+
+      ]},
+    { "title": "Disks", "type": "menu", "subtitle": "select an option...",
+      "options":[
+        { "title": "disk1", "type": "command", "command": "sudo apt update" },
+        { "title": "disk2", "type": "command", "command": "sudo apt update" }
+      ]}
+  ]
+}
